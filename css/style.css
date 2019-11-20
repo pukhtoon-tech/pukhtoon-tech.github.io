@@ -1,0 +1,478 @@
+body {
+    font-family: 'Open Sans';
+    /*background-color: #eee;*/
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+/*header.php*/
+.top_mini_header {
+    list-style-type: none;
+    float: right;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+/*header.php*/
+.top_mini_header li {
+  display: inline;
+  padding-right: 10px;
+}
+/*header.php*/
+.custom_navbar {
+  border: none; 
+  border-radius: 0px; 
+  padding: 0px; 
+  margin-bottom: 0px; 
+  background-color: #e60000;
+  min-height: 35px;
+}
+/*header.php*/
+.contact_btn {
+  border: 1px solid #e60000;
+  color: #e60000;
+  border-radius: 20px;
+  padding: 4px 15px;
+}
+/*header.php*/
+.custom_li li a {
+  line-height: 12px;
+  color: #fff !important;
+}
+/*header.php*/
+.logo1_img {
+  position: absolute;
+  z-index: 1000;
+  width: 300px;
+} 
+/*index.php*/
+.hero-image {
+  background-image: url("../images/banner.png");
+  height: 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+/*index.php*/
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 22vw;
+  transform: translate(-50%, -50%);
+}
+/*index.php*/
+.hero_title {
+  font-size: 50px;
+  font-weight: 600;
+  margin-top: 0px;
+  color: #e60000;
+}
+/*about , center.php , spa.php , news.php*/
+.hero-image_two {
+  background-image: url("../images/101.png");
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+} 
+/*about , center.php , spa.php , news.php*/
+.hero-text_two {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/*about , center.php , spa.php , news.php*/
+.hero_title_two {
+  font-size: 50px;
+  font-weight: 600;
+  margin-top: 0px;
+  color: #fff;
+}
+/*index.php*/
+.title_descrp {
+  font-size: 16px;
+  font-weight: 600;
+}
+/*index.php center.php spa.php*/
+.inner_booking_div {
+  background-color: #ff5b35;
+}
+/*index.php center.php spa.php*/
+.booking_div {
+  position: relative;
+  padding: 10px;
+  margin-top: -40px;
+}
+/*index.php center.php spa.php*/
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+/*index.php center.php spa.php*/
+.cstm_input_txt {
+    border: 0;
+    box-shadow: none;
+    outline: 0;
+    height: 40px;
+    border-radius: 0px;
+    font-size: 13px;
+    font-weight: 600;
+    margin: 12px 0px 12px 12px;
+
+}
+/*index.php center.php spa.php*/
+.cstm_input_txt:focus {
+   border: 0;
+   box-shadow: none;
+    
+}
+
+
+.vl {
+    border-left: 1px solid #ccc;
+    height: 40px;
+    margin-top: 5px;
+}
+/*index.php center.php*/
+.srch_btn {
+    border-radius: 0px;
+    border: 1px solid #fff;
+    background-image: linear-gradient(#ff5b35, #e60000);
+    color: #fff;
+    font-weight: 600;
+    padding: 0 40px;
+    margin: 12px;
+    margin-left: 0px;
+}
+/*index.php*/
+.map_icon {
+  margin-right: 10px;
+  margin-top: 7px;
+}
+/*index.php*/
+.icon_div {
+  display: inline;
+}
+/*index.php news.php*/
+.contact_btn2 {
+  border-radius: 25px;
+  border: none;
+  background-image: linear-gradient(#ff5b35, #e60000);
+  color: #fff;
+  font-weight: 600;
+  padding: 8 20px;
+}
+/*index.php about.php*/
+.fst_bck_img {
+background:url('../images/8.png')no-repeat;
+background-size:100%;
+height: 800px;
+display:block;
+padding:0 !important;
+margin:0;
+
+}
+/*index.php about.php*/
+.cstm_box {
+-webkit-box-shadow: 0px 1px 15px 0px rgba(0,0,0,0.2);
+-moz-box-shadow: 0px 1px 15px 0px rgba(0,0,0,0.2);
+box-shadow: 0px 1px 15px 0px rgba(0,0,0,0.2);
+} 
+/*index.php about.php*/
+.cstm_box_img {
+  margin: 5px auto;
+  padding-top: 20px;
+  margin-top: -50px;
+}
+/*index.php about.php*/
+.cstm_div_title {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 0px;
+}
+/*index.php about.php*/
+.cstm_div_descrp {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px 10%;
+  padding-bottom: 20px;
+}
+/*index.php about.php*/
+.cstm_number {
+  text-align: center;
+  font-size: 72px;
+  font-weight: 600;
+  color: #eee;
+}
+/*index.php about.php*/
+#about_title {
+  font-size: 28px;
+  text-align: center;
+  color: #e60000;
+  margin-top: 20px;
+}
+/*index.php about.php*/
+#about_descrp {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 20px;
+}
+/*index.php center.php news.php*/
+.massaje_div {
+  background-color: #feecea;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+/*index.php center.php news.php*/
+.massaje_title {
+  font-size: 22px;
+  padding: 0px 20px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+/*index.php center.php news.php*/
+.massaje_sb {
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 0px 20px;
+  margin-bottom: 5px; 
+}
+/*index.php center.php news.php*/
+.massaje_descrp {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 5px 20px;
+  padding-bottom: 20px;
+}
+/*footer.php*/
+.footer_img {
+background:url('../images/10.png')no-repeat;
+/*background-size:100%;*/
+height: auto;
+display:block;
+padding:0 !important;
+margin:0;
+}
+/*footer.php*/
+.fotr_logo {
+  margin: 20px auto;
+}
+/*footer.php*/
+.fotr_menu {
+  list-style-type: none;
+  padding-left: 0px;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+/*footer.php*/
+.fotr_menu li {
+  display: inline;
+}
+/*footer.php*/
+.fotr_menu li a {
+  color: #fff;
+  padding: 0px 20px;
+}
+
+.img_label_two {
+  background-color: rgba(255,255,255,0.7);
+  color: #000;
+  display: inline-block;
+  margin-top: -70px;
+  padding: 15px 10px;
+  width: 140px;
+  border-radius: 0px 0px 25px 0px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+
+/*media query start........*/
+
+@media only screen and (max-width: 600px) {
+
+  .logo1_img {
+    position: absolute;
+    z-index: 1000;
+    width: 150px;
+    top: 50px;
+}
+
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+  .hero_title {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.hero_title_two {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 0px;
+    color: #fff;
+} 
+
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ff5b35;
+}
+
+.cstm_input_txt {
+    border: 0;
+    box-shadow: none;
+    outline: 0;
+    height: 40px;
+    margin: 0px auto;
+    border-radius: 0px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 15px;
+    width: 90%;
+}
+
+.srch_btn {
+    border-radius: 0px;
+    border: 1px solid #fff;
+    background-image: linear-gradient(#ff5b35, #e60000);
+    color: #fff;
+    font-weight: 600;
+    padding: 10px;
+    margin: 15px;
+    /*margin-left: 10px;*/
+}
+
+
+.icon_div {
+    display: inline;
+    margin: 10px auto;
+}
+
+
+.top_images_div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.booking_div {
+  position: relative;
+/*  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 35px;*/
+  margin-top: 20px;
+}
+
+.fst_bck_img {
+    /* background: none; */
+    background-size: 100%;
+    height: 1523px;
+    display: block;
+    padding: 0 !important;
+    margin: 0;
+    bottom: 0px;
+    background-position: bottom;
+}
+
+
+#txt_background{
+  position:absolute;
+  z-index:0;
+  background:transparent;
+  display:block;
+  min-height:50%; 
+  min-width:50%;
+  color:yellow;
+  text-align: center;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto;
+  top: 20px;
+}
+
+#txt_content{
+  position:absolute;
+  z-index:1;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto;
+  text-align: center;
+  top: 25px;
+}
+
+#bg_txt {
+    color: #e8e8e8;
+    font-size: 24px;
+}
+
+#front_txt {
+  font-size: 18px;
+  color: #cc1026;
+}
+
+
+.fst_title {
+  margin-top: 60px; 
+  margin-bottom: 10px; 
+  text-align: center; 
+  color: #717171;
+}
+
+
+.scd_title {
+  font-size: 18px; 
+  text-align: center; 
+  color: #62bdf7; 
+  margin-top: 60px;
+}
+
+
+#about_pra {
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  margin-top: 20px;
+} 
+
+
+.scnd_bck_img {
+background: none;
+background-size:100%;
+height: 1600px;
+display:block;
+padding:0 !important;
+margin:0;
+
+}
+
+
+.rhrd_bck_img {
+background: none;
+background-size:100%;
+height: 700px;
+display:block;
+padding:0 !important;
+margin:0;
+margin-top: 1150px;
+}
+
+
+}
